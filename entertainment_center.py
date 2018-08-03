@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+#creating objects 
 bahubali=media.Movie("Bahubali","The empire of Mahispati Samraj","https://upload.wikimedia.org/wikipedia/en/d/dc/Baahubali_The_Beginning_Movie_Poster.jpg","https://www.youtube.com/watch?v=VdafjyFK3ko&t=5s")
 
 son_of_satyamurthi=media.Movie("Son of Satyamurthi","The greatness of Father","https://upload.wikimedia.org/wikipedia/en/8/81/Son_of_Satyamurthy_poster.jpg","https://www.youtube.com/watch?v=bKPfqvelpNY")
@@ -13,5 +14,5 @@ yeh_jawani_h_deewani=media.Movie("Yeh Jawani H Deewani","Not express in just a L
 
 spyder=media.Movie("Spyder","The Mahesh Babu","https://upload.wikimedia.org/wikipedia/en/d/de/Spyder_film_poster.jpg","https://www.youtube.com/watch?v=VUEH5KTk2-E")
 
-movies=[bahubali,son_of_satyamurthi,nannaku_prematho,main_hoon_na,yeh_jawani_h_deewani,spyder]
+movies=[bahubali,son_of_satyamurthi,nannaku_prematho,main_hoon_na,yeh_jawani_h_deewani,spyder] #saving objects in a list
 fresh_tomatoes.open_movies_page(movies)
